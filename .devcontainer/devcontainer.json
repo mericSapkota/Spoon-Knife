@@ -1,0 +1,16 @@
+{
+  "name": "Hello World Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Hello World! Your dev container is ready.'",
+  "remoteUser": "codespace"
+}
